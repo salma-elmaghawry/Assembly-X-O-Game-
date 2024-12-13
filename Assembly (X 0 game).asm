@@ -13,11 +13,11 @@ data segment
     win_flag db 0 
     player db "0$" 
     
-    game_over_message db "fasiulhaq", 13, 10, "$"    
-    game_start_message db "samehulhaq", 13, 10, "$"
+    game_over_message db "Game Over", 13, 10, "$"    
+    game_start_message db "Hello!", 13, 10, "$"
     player_message db "PLAYER $"   
-    win_message db " WIN!$"   
-    type_message db "TYPE A POSITION: $"
+    win_message db "  Congrats You Are WIN$"   
+    type_message db "TYPE X POSITION: $"
 ends
 
 stack segment
